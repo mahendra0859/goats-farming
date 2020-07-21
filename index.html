@@ -3,15 +3,173 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goat Farming</title>
+    <title>Avika Farms - Goat Farming</title>
+    <!-- Meta Description -->
+    <meta name="description" content="Avika Farms - Goat Farming" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <script src="./assets/js/main.js" defer></script>
+    <!-- Bootstrap CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <div class="bgimg">
-      <div class="middle">
-        <h1>COMING SOON...</h1>
+    <header class="v-header">
+      <div class="fullscreen-video-wrap">
+        <video
+          src="./assets/video/goat.mp4"
+          type="video/mp4"
+          autoplay
+          loop
+          muted
+        ></video>
       </div>
-    </div>
+      <div class="header-overlay"></div>
+      <div
+        class="header-content text-md-center container"
+        data-aos="zoom-in-up"
+      >
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h1>Welcome Everyone to Avika Farm</h1>
+              <p>
+                Goat meat contains low amounts of saturated fatty acids and
+                cholesterol. It is considered to be a healthier alternative to
+                other types of red meat.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <h1>Real Milk</h1>
+            </div>
+            <div class="carousel-item">
+              <h1>Real Taste</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="container">
+      <div class="row featurette my-4">
+        <div class="col-md-7" data-aos="fade-up">
+          <h2 class="featurette-heading">
+            Benefits of Rearing Goats.
+            <span class="text-muted">Making Maximum Profit.</span>
+          </h2>
+          <p class="lead">
+            Popularly known as a Common man’s ‘Cow’ or goats are among the main
+            meat-producing animals in India. Its meat (chevon) is one of the
+            choicest meats which havehuge domestic demand.Goat farming generally
+            means, rearing goats for the purpose of harvesting milk, meat and
+            fiber. Rearing of goats is not a new enterprise and the process has
+            been taken place since the time immemorial.
+          </p>
+        </div>
+        <div class="col-md-5" data-aos="fade-down">
+          <img
+            class="img-fluid lazyloaded"
+            width="500"
+            height="500"
+            src="./assets/images/goats/goat-1.jpg"
+          />
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+      <div class="row featurette my-4">
+        <div class="col-md-7 order-md-2" data-aos="fade-up">
+          <h2 class="featurette-heading">
+            Goat Products are Healthy &
+            <span class="text-muted">Easily Digestible.</span>
+          </h2>
+          <p class="lead">
+            Goat products such as milk and meat are not only nutritious and
+            easily digestible but are also a great source of regular income for
+            the poor, landless and marginal farmers. It contributes immensely in
+            rural economy and national income. Its meat and milk are cholesterol
+            free and easily digestible. Goat milk is used for making different
+            types of foods. They can produce milk, meat, skin, fiber and manure
+            at the same time.
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1" data-aos="fade-down">
+          <img
+            class="img-fluid lazyloaded"
+            width="500"
+            height="500"
+            src="./assets/images/goats/goat-2.jpg"
+          />
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+      <div class="row featurette my-4">
+        <div class="col-md-7" data-aos="fade-up">
+          <h2 class="featurette-heading">
+            Best Milk
+            <span class="text-muted">Producers.</span>
+          </h2>
+          <p class="lead">
+            Due to this quality, goats are popularly called as the “foster
+            mother of human”. Their milk is considered as the best milk for
+            human consumption than any other species of livestock animal’s milk.
+            The milk is low cost, nutritious, wholesome and easily digestible.
+            In fact, all aged people from child to old can easily digest goat’s
+            milk. Goat milk also has lesser allergic problems. It is also used
+            as an Ayurvedic medicine for the people who are ailing with
+            diabetes, asthma, cough etc.
+          </p>
+        </div>
+        <div class="col-md-5" data-aos="fade-down">
+          <img
+            class="img-fluid lazyloaded"
+            width="500"
+            height="500"
+            src="./assets/images/goats/goat-3.jpg"
+          />
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+    </section>
+    <!-- FOOTER -->
+    <footer class="container">
+      <p>
+        &copy; 2020 Avika Farms, Inc.
+      </p>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 1500 });
+    </script>
   </body>
 </html>
